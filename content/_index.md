@@ -27,23 +27,23 @@ sections:
     date_format: Jan 2006
     items:
     - company: Baylor Uganda
-      company_logo: org-gc
-      company_url: ""
+      company_logo:
+      company_url: "https://www.baylor-uganda.org/"
       date_end: ""
-      date_start: "2021-01-01"
+      date_start: "2021-03-03"
       description: |2-
           Responsibilities include:
 
-          * Analysing
+          * Analyzing
           * Data collection
-          * Coordination and supervision
+          * Writing
       location: Kampala
       title: Qualitative Data Officer
     - company: Makerere University center for Health and Population Research 
-      company_logo: org-x
+      company_logo: 
       company_url: ""
-      date_end: "2020-12-31"
-      date_start: "2016-01-01"
+      date_end: "2021-12-31"
+      date_start: "2019-01-01"
       description: Coordinated, supervised and analysed data from a range of studies.
       location: Iganga
       title: Research officer
@@ -52,34 +52,33 @@ sections:
     columns: "2"
 - block: accomplishments
   content:
-    date_format: Jan 2006
+    date_format: Jan 2021
     items:
-    - certificate_url: https://www.coursera.org
+    - organization_url: https://www.rstmh.org/
       date_end: ""
-      date_start: "2021-01-25"
-      description: ""
-      organization: Coursera
-      organization_url: https://www.coursera.org
-      title: Neural Networks and Deep Learning
+      date_start: "2021-01-02"
+      description: "RSTMH & National Institute for Health Research (NIHR) 2021 Small Grants Programme. The small grant supported my work for estimating the economic burden of snakebites envenoming in Eastern Uganda."
+      organization: RSHTM
+      title: Estimating the economic burden of Snakebites
       url: ""
-    - certificate_url: https://www.edx.org
+    - certificate_url: 
       date_end: ""
       date_start: "2021-01-01"
-      description: Formulated informed blockchain models, hypotheses, and use cases.
-      organization: edX
-      organization_url: https://www.edx.org
-      title: Blockchain Fundamentals
-      url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    - certificate_url: https://www.datacamp.com
-      date_end: "2020-12-21"
+      description: This was a cost effectiveness Analysis of passive and active vaccine pharmacovigilance strategies done in a population based cohort for measles rubella mass vaccination. This was thesis work done as part of masters of health services research graduate program at school of public health.
+      organization: Makerere University School of Public Health
+      organization_url: https://sph.mak.ac.ug/
+      title: Cost effectiveness of vaccinovigilance strategies
+      url: ""
+    - certificate_url: 
+      date_end: "2022-12-21"
       date_start: "2020-07-01"
-      description: ""
-      organization: DataCamp
-      organization_url: https://www.datacamp.com
-      title: Object-Oriented Programming in R
+      description: "Maternal immunization is a successful and cost-effective public health strategy. It protects pregnant women and their infants from vaccine-preventable diseases. In this project, we explored maternal knowledge, attitudes, willingness, and beliefs towards maternal immunization among pregnant women in rural Uganda."
+      organization: MUCHAP
+      organization_url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0243834 
+      title: Maternal vaccination in rural Uganda
       url: ""
     subtitle: null
-    title: Accomplish&shy;ments
+    title: Research projects
   design:
     columns: "2"
 - block: collection
@@ -109,8 +108,8 @@ sections:
     buttons:
     - name: All
       tag: '*'
-    - name: Deep Learning
-      tag: Deep Learning
+    - name: Data Analysis
+      tag: Data Analysis
     - name: Other
       tag: Demo
     default_button_index: 0
