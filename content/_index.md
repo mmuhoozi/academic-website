@@ -17,10 +17,10 @@ sections:
       icon: chart-line
       icon_pack: fas
       name: Statistics
-    - description: 40%
-      icon: camera-retro
+    - description: 90%
+      icon: python
       icon_pack: fas
-      name: Photography
+      name: Teamwork
     title: Skills
 - block: experience
   content:
